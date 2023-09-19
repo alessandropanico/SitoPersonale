@@ -1,0 +1,14 @@
+.carta {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  
+}
+
+/* .carta:hover {
+  width: 300px; 
+  height: 300px; 
+} */
+
+ 

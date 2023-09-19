@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+    color:red
+}
+
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Aggiungi spazio tra le icone */
+}
+
+.contact-item i {
+    margin-right: 10px; /* Aggiungi spazio tra l'icona e il testo */
+}
+
+#inviaButtonWH{
+    background-image: linear-gradient(to right, #DC2424 0%, #6e3391 51%, #DC2424 100%);
+    margin: 10px;
+    padding: 30px 60px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* Rimuovi la proprietà box-shadow o imposta su "none" */
+    box-shadow: none; /* o box-shadow: 0 0 20px #eee; */
+    border-radius: 50px;
+    display: block;
+    font-family: mw;
+    font-size: 25px;
+    border-color: rgb(152, 64, 182);
+    display: inline-block;
+}
+
+#inviaButtonWH:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}

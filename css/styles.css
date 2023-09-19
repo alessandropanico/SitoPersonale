@@ -1,0 +1,246 @@
+/* Definizione dei font */
+@font-face {
+    font-family: "concilian";
+    src: url("../font/CONCELIAN/concielianboldsemital.ttf");
+}
+
+@font-face {
+    font-family: "sketter";
+    src: url("../font/SKETTER/Sketter DEMO.ttf");
+}
+
+@font-face {
+    font-family: "mw";
+    src: url("../font/MW/ModernWarfare-8MM6z.ttf");
+}
+
+@font-face {
+    font-family: "ex";
+    src: url("../font/EXPANDED/Akira\ Expanded\ Demo.otf");
+}
+
+/* Stile della barra di navigazione */
+#navbar {
+    background-color: rgb(28, 28, 28);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-right: 30px;
+    height: 120px;
+    border-bottom: solid 10px;
+    border-color: rgb(207, 21, 21);
+    transition: opacity 0.7s;
+    opacity: 1;
+    z-index: 9999;
+    transition: opacity 0.7s; /* Aggiungi una transizione all'opacità */
+    position: fixed; /* Imposta la posizione fissa */
+    top: 0; /* Posiziona la navbar in alto */
+    left: 0;
+    right: 0;
+    z-index: 9999; /* Assicura che sia sopra a tutto il contenuto */
+    transition: opacity 0.5s; /* Aggiungi una transizione all'opacità */
+}
+
+/* CSS per nascondere la navbar */
+#navbar.hidden {
+    display: none;
+}
+
+/* CSS per disabilitare i pulsanti */
+#navbar.hidden .navLink {
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+/* Stile del logo nella barra di navigazione */
+.navbar-logo {
+    padding: 10px;
+    background-color: rgb(207, 21, 21);
+    width: 250px;
+    height: 250px;
+    text-align: start;
+    /*  animation: glow 2s infinite; Applica l'animazione "glow" in modo continuo */
+
+}
+
+/* Stile della lista del menu nella barra di navigazione */
+.navbar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Stile degli elementi del menu nella barra di navigazione */
+.navbar-menu li {
+    display: inline-block;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding: 20px;
+}
+
+/* Stile dei link nel menu */
+/* Aggiungi una transizione alla proprietà background-position quando il mouse è sopra il link del menu */
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: mw;
+    padding: 10px 15px;
+    border-radius: 0%;
+    background-size: 200% 100%;
+    transition: background-position 0.4s ease, color 0.4s ease;
+    /* Aggiungi transizione a background-position e colore */
+}
+
+
+/* Aggiungi il riquadro e cambia il colore quando il mouse è sopra il link del menu */
+nav a:hover {
+    background-position: -100% 100%;
+    background-image: linear-gradient(45deg, rgb(207, 21, 21), transparent 50%);
+    color: rgb(207, 21, 21);
+    /* Cambia il colore del testo */
+}
+
+
+
+.angelo {
+    font-size: 80px;
+    color: rgb(207, 21, 21);
+    margin-left: 80px;
+    animation: glow 1s infinite alternate;
+    /* Applica l'animazione "glow" in modo continuo */
+    text-shadow: 0 0 10pxred;
+    /* Aggiungi uno shadow al testo */
+    margin-bottom: 10px;
+    position: absolute;
+    margin-left: 380px;
+}
+
+
+/* Stile dei link nel menu quando sono selezionati */
+.red {
+    color: red;
+}
+
+
+/*Bagliore*/
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 20px red;
+        /* Stato iniziale del bagliore (aumenta la larghezza) */
+    }
+
+    100% {
+        text-shadow: 0 0 40px red, 0 0 60px red;
+        /* Stato finale del bagliore (aumenta ancora la larghezza) */
+    }
+}
+
+
+/*CAROUSEL*/
+#carouselExample {
+    width: 1000px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Per mantenere le proporzioni dell'immagine */
+}
+
+/* Aumenta la dimensione delle frecce del carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 100px;
+    /* Imposta la larghezza desiderata */
+    height: 100px;
+    /* Imposta l'altezza desiderata */
+    border-radius: 50px;
+}
+
+/* Aggiungi un po' di spazio tra le frecce e il contenuto del carousel */
+.carousel-control-prev,
+.carousel-control-next {
+    margin-left: 10px;
+    /* Imposta la quantità desiderata di spazio a sinistra e a destra delle frecce */
+    margin-right: 10px;
+}
+
+
+#background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+    position: fixed;
+    /* Utilizza "fixed" invece di "absolute" */
+    top: 0;
+    left: 0;
+}
+
+
+.giu {
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-top: solid 10px;
+    border-color: rgb(207, 21, 21);
+}
+
+
+.linea{
+    background-color: red; height: 2px; margin-top: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color:red
+}
+
+  
+
+/*BOTTONE*/        
+.btn-grad {
+    background-image: linear-gradient(to right, #DC2424 0%, #6e3391 51%, #DC2424 100%);
+    margin: 10px;
+    padding: 30px 60px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* Rimuovi la proprietà box-shadow o imposta su "none" */
+    box-shadow: none; /* o box-shadow: 0 0 20px #eee; */
+    border-radius: 50px;
+    display: block;
+    font-family: mw;
+    font-size: 25px;
+    border-color: rgb(152, 64, 182);
+    display: inline-block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.narrower-container {
+    max-width: 1000px;
+    /* Larghezza massima desiderata per il container */
+    margin: 0 auto;
+    /* Per centrare il container orizzontalmente */
+}
