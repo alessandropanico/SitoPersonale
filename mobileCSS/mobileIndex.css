@@ -11,6 +11,13 @@
         padding: 10px; /* Aumenta il padding per migliorare la leggibilità */
     }
 
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px auto; /* Centra il logo verticalmente e orizzontalmente */
+    }
+
     /* Sposta il logo al centro */
     #logo {
         width: 120px;
@@ -19,10 +26,9 @@
 
     .angelo {
         font-size: 25px;
-        position: absolute;
-        top: 10px; /* Sposta in alto di 10px dalla parte superiore */
-        right: 10px; /* Sposta a destra di 10px dalla parte destra */
-        z-index: 9999; /* Porta l'elemento in primo piano */
+        text-align: center;
+        margin-top: 5px; /* Riduci il margine superiore per separare "angelo" dal logo */
+        z-index: 1; /* Porta "angelo" in primo piano sopra il menu */
     }
 
     /* Modifica lo stile delle voci del menu */
@@ -33,7 +39,6 @@
         flex-direction: column; /* Allinea le voci del menu in colonna */
         margin-top: 20px; /* Aggiungi margine superiore per separare le voci dal logo */
         align-items: center; /* Allinea le voci del menu al centro orizzontalmente */
-        position: absolute;
     }
 
     .navbar-menu li {
@@ -50,6 +55,27 @@
     ul li {
         margin-top: 10px; /* Aggiungi margine superiore tra le voci */
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     /*---------------------------------------------------------------------*/
 
