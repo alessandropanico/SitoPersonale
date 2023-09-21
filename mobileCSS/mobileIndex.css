@@ -4,12 +4,12 @@
     /*NAVBAR*/
 
     /* Adatta la navbar al cellulare */
-    .navProva {
+    #navbar {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        height: 100px;
         padding: 5px 10px; /* Riduci il padding */
-        background-color: rgb(28, 28, 28);
     }
 
    
@@ -30,6 +30,8 @@
 
     .menu {
         margin-top: 10px;
+        align-items: flex-start; /* Allinea le voci a sinistra */
+
     }
 
     /* Modifica lo stile delle voci del menu */
@@ -38,7 +40,6 @@
         padding: 0;
         flex-direction: column;
         align-items: flex-start; /* Allinea le voci a sinistra */
-        margin-top: 10px; /* Aggiungi margine in cima al UL */
 
 
     }
