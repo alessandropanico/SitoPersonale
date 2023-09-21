@@ -22,15 +22,17 @@
 
     .angelo {
         font-size: 40px;
-        text-align: center;
         margin-top: 20px; /* Riduci il margine superiore per separare "angelo" dal logo */
         z-index: 1; /* Porta "angelo" in primo piano sopra il menu */
+        margin-right: 20px;
+        margin-top: 20px;
+        align-items: center;
     }
     
 
     .menu {
         margin-top: 10px;
-        align-items: flex-start; /* Allinea le voci a sinistra */
+        align-items: start; /* Allinea le voci a sinistra */
     }
 
     /* Modifica lo stile delle voci del menu */
@@ -38,7 +40,7 @@
         list-style: none;
         padding: 0;
         flex-direction: column;
-        align-items: flex-start; /* Allinea le voci a sinistra */
+        align-items: start; /* Allinea le voci a sinistra */
     }
 
     .navbar-menu li {
@@ -53,11 +55,15 @@
     /* Aggiungi spazio tra le voci del menu */
     ul li {
         margin-top: 5px; /* Riduci margine superiore tra le voci */
-        padding-left: 10px; /* Aggiungi un margine a sinistra per separare dal bordo */
+        padding-left: 5px; /* Aggiungi un margine a sinistra per separare dal bordo */
 
     }
 
     /*---------------------------------------------------------------------*/
+
+    section{
+        margin-top: 40px;
+    }
 
     /* Riduci la dimensione del testo nell'intestazione */
     .benvenuto {
