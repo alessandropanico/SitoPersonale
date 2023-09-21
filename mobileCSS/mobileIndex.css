@@ -1,11 +1,60 @@
 /* Stili per schermi con larghezza massima di 768px (versione mobile) */
 @media screen and (max-width: 768px) {
+
+    /*NAVBAR*/
+  
+    #logo {
+        width: 40px;
+        margin-left: 0;
+    }
+
+    .angelo {
+        font-size: 80px;
+        color: rgb(207, 21, 21);
+        margin-right: 10px;
+    }
+
+
+    /* Adatta la navbar al cellulare */
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+        background-color: rgb(28, 28, 28);
+    }
+
+
+    /* Riduci la dimensione delle icone nella navbar */
+    .navbar-menu a {
+        font-size: 14px;
+        margin-left: 10px; /* Aggiungi margine sinistro */
+    }
+
+    /* Riduci la dimensione delle icone delle voci di menu */
+
+
+    .navbar-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+        list-style: none;
+    }
+
+
+
+
+
+
+
+
+
     /* Riduci la dimensione del testo nell'intestazione */
     .benvenuto {
         font-size: 30px;
     }
 
-    .avanti{
+    .avanti {
         font-size: 30px;
     }
 
@@ -36,67 +85,12 @@
         height: 50px;
     }
 
+
+
     /* Riduci la dimensione del testo nel footer */
     .alessandro {
         font-size: 18px;
     }
-
-    /* Adatta la navbar al cellulare */
-    @media screen and (max-width: 768px) {
-        /* Riduci la dimensione del logo e posizionalo al centro della pagina */
-        #logo {
-            width: 40px;
-            margin-left: 0;
-        }
-    
-        /* Sposta il div .angelo affianco al logo */
-        .angelo {
-            font-size: 80px;
-            color: rgb(207, 21, 21);
-            margin-right: 10px;
-        }
-
-
-
-
-
-    
-        /* Adatta la navbar al cellulare */
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 5px 10px;
-        background-color: rgb(255, 255, 255);
-    }
-
-    /* Sposta .navbar-menu sotto il logo */
-    .navbar-menu {
-        margin-top: 10px; /* Utilizza margin-top per spostare .navbar-menu sotto il logo */
-    }
-
-   
-
-    /* Riduci la dimensione delle icone nella navbar */
-    .navbar-menu .navLink {
-        font-size: 16px;
-    }
-
-    /* Riduci la dimensione delle icone delle voci di menu */
-    .navbar-menu .navLink i {
-        font-size: 20px;
-    }
-
-    .navbar-menu{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start; /* Allinea le voci a sinistra */
-        margin-top: 10px; /* Aggiungi margine in cima al UL */
-        list-style: none; /* Rimuovi i punti dalle voci del menu */
-    }
-
-
-
 
 
     /* Footer */
@@ -108,5 +102,4 @@
     .social i {
         font-size: 25px;
     }
-}
 }
