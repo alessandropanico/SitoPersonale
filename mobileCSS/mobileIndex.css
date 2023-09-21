@@ -35,7 +35,7 @@
         padding: 0;
     }
 
-    .nav a {
+    nav a {
         font-size: 14px; /* Aumenta la dimensione del testo delle voci */
         margin: 5px 0; /* Aggiungi spazio tra le voci */
         text-align: center; /* Centra il testo */
