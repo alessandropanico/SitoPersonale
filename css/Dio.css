@@ -1,6 +1,6 @@
-a{
+a {
     text-decoration: none;
-    color:red
+    color: red
 }
 
 .btn-grad3 {
@@ -13,7 +13,8 @@ a{
     background-size: 200% auto;
     color: white;
     /* Rimuovi la proprietà box-shadow o imposta su "none" */
-    box-shadow: none; /* o box-shadow: 0 0 20px #eee; */
+    box-shadow: none;
+    /* o box-shadow: 0 0 20px #eee; */
     border-radius: 50px;
     display: block;
     font-family: mw;
@@ -26,4 +27,42 @@ a{
     background-position: right center;
     color: #fff;
     text-decoration: none;
+}
+
+
+
+.storia {
+    font-family: mw;
+    font-size: 50px;
+    color: rgb(207, 21, 21)
+}
+
+
+.storiaTesto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+
+.conclusioni {
+    font-family: concilian;
+    color: black;
+    font-size: 50px;
+}
+
+.testoConclusioni {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+
+.benedizioni {
+    font-family: ex;
+    font-size: 40px;
+    color: rgb(207, 21, 21);
+    margin-top: 50px;
 }

@@ -1,20 +1,22 @@
-a{
+a {
     text-decoration: none;
-    color:red
+    color: red
 }
 
 
 .contact-item {
     display: flex;
     align-items: center;
-    margin-bottom: 20px; /* Aggiungi spazio tra le icone */
+    margin-bottom: 20px;
+    /* Aggiungi spazio tra le icone */
 }
 
 .contact-item i {
-    margin-right: 10px; /* Aggiungi spazio tra l'icona e il testo */
+    margin-right: 10px;
+    /* Aggiungi spazio tra l'icona e il testo */
 }
 
-#inviaButtonWH{
+#inviaButtonWH {
     background-image: linear-gradient(to right, #DC2424 0%, #6e3391 51%, #DC2424 100%);
     margin: 10px;
     padding: 30px 60px;
@@ -24,7 +26,8 @@ a{
     background-size: 200% auto;
     color: white;
     /* Rimuovi la proprietà box-shadow o imposta su "none" */
-    box-shadow: none; /* o box-shadow: 0 0 20px #eee; */
+    box-shadow: none;
+    /* o box-shadow: 0 0 20px #eee; */
     border-radius: 50px;
     display: block;
     font-family: mw;
@@ -37,4 +40,66 @@ a{
     background-position: right center;
     color: #fff;
     text-decoration: none;
+}
+
+
+.contatti {
+    font-family: ex;
+    color: rgb(207, 21, 21);
+    font-size: 60px;
+}
+
+
+.segna {
+    font-family: concilian;
+    color: black;
+    font-size: 50px;
+}
+
+.divIcone {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+
+.sfondoIcone {
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.testoIcone {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    ;
+    z-index: 999;
+}
+
+
+.parliamone {
+    font-family: concilian;
+    color: black;
+    font-size: 50px;
+}
+
+.testoParliamone {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.fineContatti {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+    margin-top: 20px;
 }
