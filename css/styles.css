@@ -69,16 +69,7 @@
 
 
 
-/* Stile del logo nella barra di navigazione */
-.navbar-logo {
-    padding: 10px;
-    background-color: rgb(207, 21, 21);
-    width: 250px;
-    height: 250px;
-    text-align: start;
-    /*  animation: glow 2s infinite; Applica l'animazione "glow" in modo continuo */
 
-}
 
 /* Stile della lista del menu nella barra di navigazione */
 .navbar-menu {
