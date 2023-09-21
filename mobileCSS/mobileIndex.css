@@ -5,7 +5,6 @@
 
     /* Adatta la navbar al cellulare */
     #navbar {
-        display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -14,15 +13,15 @@
    
     /* Sposta il logo al centro */
     #logo {
-        width: 150px;
+        width: 170px;
         margin-left: 10px;
         margin-top: 20px;
     }
 
     .angelo {
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
-        margin-top: 5px; /* Riduci il margine superiore per separare "angelo" dal logo */
+        margin-top: 20px; /* Riduci il margine superiore per separare "angelo" dal logo */
         z-index: 1; /* Porta "angelo" in primo piano sopra il menu */
     }
     
@@ -36,6 +35,9 @@
         list-style: none;
         padding: 0;
         flex-direction: column;
+        align-items: flex-start; /* Allinea le voci a sinistra */
+        margin-top: 10px; /* Aggiungi margine in cima al UL */
+
 
     }
 
