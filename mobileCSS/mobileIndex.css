@@ -6,48 +6,60 @@
     /* Adatta la navbar al cellulare */
     .navbar {
         flex-direction: column; /* Cambia la direzione della flexbox in colonna */
-        padding: 10px; /* Aumenta il padding per migliorare la leggibilità */
+        align-items: center; /* Allinea al centro orizzontalmente */
         background-color: rgb(28, 28, 28);
+        padding: 10px; /* Aumenta il padding per migliorare la leggibilità */
     }
 
-    /* Sposta il logo e la classe "angelo" al centro */
+    /* Sposta il logo al centro */
     #logo {
         width: 80px;
         margin: 10px auto; /* Centra il logo */
     }
 
-    /* Sposta la classe "angelo" affianco al logo */
+    /* Sposta la classe "angelo" sotto il logo */
     .angelo {
         width: 40px;
-        position: absolute;
-        top: 10px;
-        right: 10px; /* Posiziona l'angelo nell'angolo in alto a destra */
+        margin: 10px auto; /* Centra "angelo" */
+        position: static; /* Rimuovi la posizione assoluta */
+        top: auto;
+        right: auto;
         z-index: 9999;
     }
 
     /* Modifica lo stile delle voci del menu */
     .navbar-menu {
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Allinea le voci del menu al centroo */
-        margin-top: 20px;
         list-style: none;
         padding: 0;
     }
 
-    nav a {
-        font-size: 14px; /* Aumenta la dimensione del testo delle voci */
+    .navbar-menu li {
         margin: 5px 0; /* Aggiungi spazio tra le voci */
         text-align: center; /* Centra il testo */
+    }
+    
+    nav a {
+        font-size: 14px; /* Aumenta la dimensione del testo delle voci */
     }
 
     /* Aggiungi spazio tra le voci del menu */
     ul li {
-        margin-right: -10px;
+        margin-right: 0; /* Rimuovi il margine destro */
     }
 
     
 
+
+
+
+
+
+
+
+
+
+
+    
     /*---------------------------------------------------------------------*/
 
     /* Riduci la dimensione del testo nell'intestazione */
