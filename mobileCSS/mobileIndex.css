@@ -35,8 +35,8 @@
         padding: 0;
     }
 
-    .navbar-menu a {
-        font-size: 18px; /* Aumenta la dimensione del testo delle voci */
+    .nav a {
+        font-size: 14px; /* Aumenta la dimensione del testo delle voci */
         margin: 5px 0; /* Aggiungi spazio tra le voci */
         text-align: center; /* Centra il testo */
     }
@@ -45,6 +45,8 @@
     ul li {
         margin-right: -10px;
     }
+
+    
 
     /*---------------------------------------------------------------------*/
 
