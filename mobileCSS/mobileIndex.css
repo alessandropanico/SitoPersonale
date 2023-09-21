@@ -35,6 +35,8 @@
     .navbar-menu {
         list-style: none;
         padding: 0;
+        flex-direction: column;
+
     }
 
     .navbar-menu li {
@@ -50,12 +52,7 @@
         margin-top: 10px; /* Aggiungi marginee superiore tra le voci */
     }
 
-
-     /* Fai sì che le voci del menu siano disposte in colonna */
-     .navbar-menu {
-        flex-direction: column;
-    }
-
+   
 
 
 
