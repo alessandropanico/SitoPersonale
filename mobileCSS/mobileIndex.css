@@ -43,6 +43,7 @@
 
     .navbar-menu li {
         margin: 5px 0;
+        text-align: left;
     }
     nav a {
         font-size: 12px; /* Aumenta la dimensione del testo delle voci */
@@ -52,6 +53,8 @@
     /* Aggiungi spazio tra le voci del menu */
     ul li {
         margin-top: 5px; /* Riduci margine superiore tra le voci */
+        padding-left: 10px; /* Aggiungi un margine a sinistra per separare dal bordo */
+
     }
 
     /*---------------------------------------------------------------------*/
