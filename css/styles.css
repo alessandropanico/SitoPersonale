@@ -48,6 +48,10 @@
     /* Aggiungi una transizione all'opacità */
 }
 
+#logo{
+    width: 300px;
+}
+
 /* CSS per nascondere la navbar */
 #navbar.hidden {
     display: none;
