@@ -5,6 +5,10 @@
         font-size: 30px;
     }
 
+    .avanti{
+        font-size: 30px;
+    }
+
     /* Modifica il margine delle sezioni */
     section {
         margin-top: 20px;
@@ -41,8 +45,8 @@
     @media screen and (max-width: 768px) {
         /* Riduci la dimensione del logo e posizionalo al centro della pagina */
         #logo {
-            width: 50px;
-            margin-left: 0 auto;
+            width: 40px;
+            margin-left: 0;
         }
     
         /* Sposta il div .angelo affianco al logo */
@@ -102,7 +106,7 @@
 
     /* Riduci la dimensione delle icone del footer */
     .social i {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 }
