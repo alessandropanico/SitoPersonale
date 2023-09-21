@@ -9,7 +9,7 @@
         align-items: center;
         text-align: center;
         height: auto; /* Altezza automatica per adattarsi al contenuto */
-        padding: 5px 10px; /* Riduci il padding */
+        padding: 5px; /* Riduci il padding */
     }
 
    
@@ -28,11 +28,13 @@
         margin-top: 20px;
         align-items: center;
     }
-    
 
+  
     .menu {
         margin-top: 10px;
         align-items: start; /* Allinea le voci a sinistra */
+        flex-direction: column;
+
     }
 
     /* Modifica lo stile delle voci del menu */
@@ -46,10 +48,13 @@
     .navbar-menu li {
         margin: 5px 0;
         text-align: left;
+        flex-direction: column;
+
     }
     nav a {
         font-size: 12px; /* Aumenta la dimensione del testo delle voci */
         padding: 5px;
+        align-items: start; /* Allinea le voci a sinistra */
     }
 
     /* Aggiungi spazio tra le voci del menu */
@@ -62,7 +67,7 @@
     /*---------------------------------------------------------------------*/
 
     section{
-        margin-top: 40px;
+        margin-top: 80px;
     }
 
     /* Riduci la dimensione del testo nell'intestazione */
