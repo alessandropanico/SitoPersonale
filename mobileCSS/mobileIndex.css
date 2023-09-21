@@ -2,49 +2,70 @@
 @media screen and (max-width: 768px) {
 
     /*NAVBAR*/
-  
-   /* Adatta la navbar al cellulare */
-.navbar {
-    display: flex;
-    flex-direction: column;
-    padding: 5px 10px;
-    background-color: rgb(28, 28, 28);
-}
 
-/* Riduci la dimensione delle icone nella navbar */
-.navbar-menu a {
-    font-size: 14px;
-    margin-left: 10px; /* Aggiungi margine sinistro */
-}
+    /* Adatta la navbar al cellulare */
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px;
+        background-color: rgb(28, 28, 28);
+    }
 
-/* Sposta il logo e la classe "angelo" al centro */
-#logo,
-.angelo {
-    margin: 0 auto;
-}
+    /* Riduci la dimensione delle icone nella navbar */
+    .navbar-menu a {
+        font-size: 14px;
+        margin-left: 10px;
+        /* Aggiungi margine sinistro */
+    }
 
-/* Sposta la classe "angelo" affianco al logo */
-.angelo {
-    font-size: 80px;
-    color: rgb(207, 21, 21);
-    margin-right: 10px;
-}
+    /* Sposta il logo e la classe "angelo" al centro */
+    #logo {
+        width: 40px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
 
-
-.navbar-menu{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Allinea le voci a sinistra */
-    margin-top: 20px; /* Aggiungi margine in cima al UL */
-    list-style: none; /* Rimuovi i punti dalle voci del menu */
-}
+    /* Sposta la classe "angelo" affianco al logo */
+    .angelo {
+        width: 40px;
+        position: absolute;
+        top: 10px;
+        /* Sposta in alto di 10px dalla parte superiore */
+        right: 10px;
+        /* Sposta a destra di 10px dalla parte destra */
+        z-index: 9999;
+        /* Porta l'elemento in primo piano */
+    }
 
 
+    .navbar-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* Allinea le voci a sinistra */
+        margin-top: 20px;
+        /* Aggiungi margine in cima al UL */
+        list-style: none;
+        /* Rimuovi i punti dalle voci del menu */
+    }
+
+
+    .navbar-menu a {
+
+        font-size: 14px;
+        margin-left: 10px;
+        /* Aggiungi margine sinistro */
+    }
+
+
+    ul li {
+        margin-right: -10px;
+        /* Aggiungi spazio tra le voci */
+    }
 
 
 
-
-
+    /*---------------------------------------------------------------------*/
 
 
     /* Riduci la dimensione del testo nell'intestazione */
