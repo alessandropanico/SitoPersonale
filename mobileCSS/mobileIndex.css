@@ -42,19 +42,18 @@
         list-style: none;
         padding: 0;
         flex-direction: column;
-        align-items: start; /* Allinea le voci a sinistra */
+        display: flex; /* Imposta il display su flex */
+
     }
 
     .navbar-menu li {
         margin: 5px 0;
         text-align: left;
-        flex-direction: column;
 
     }
     nav a {
         font-size: 12px; /* Aumenta la dimensione del testo delle voci */
         padding: 5px;
-        align-items: start; /* Allinea le voci a sinistra */
     }
 
     /* Aggiungi spazio tra le voci del menu */
