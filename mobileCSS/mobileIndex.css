@@ -38,48 +38,52 @@
     }
 
     /* Adatta la navbar al cellulare */
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        padding: 5px 10px;
-        background-color: rgb(255, 255, 255);
-    }
+    @media screen and (max-width: 768px) {
+        /* Riduci la dimensione del logo e posizionalo al centro della pagina */
+        #logo {
+            width: 80px;
+            margin: 0 auto;
+        }
+    
+        /* Sposta il div .angelo affianco al logo */
+        .angelo {
+            font-size: 80px;
+            color: rgb(207, 21, 21);
+            margin-left: 10px;
+        }
+    
+        /* Adatta la navbar al cellulare */
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5px 10px;
+            background-color: rgb(255, 255, 255);
+        }
+    
+        .nav-list {
+            list-style: none;
+            padding: 0;
+        }
+    
+        .nav-list li {
+            margin-bottom: 10px;
+        }
+    
+        /* Riduci la dimensione delle icone nella navbar */
+        .navbar-menu .navLink {
+            font-size: 16px;
+        }
+    
+        /* Riduci la dimensione delle icone delle voci di menu */
+        .navbar-menu .navLink i {
+            font-size: 20px;
+        }
 
-    /* Riduci la dimensione del logo e posizionalo al centro della pagina */
-    #logo {
-        width: 80px;
-        margin: 0 auto;
-    }
 
-    /* Sposta il div .angelo affianco al logo */
-    .angelo {
-        font-size: 80px;
-        color: rgb(207, 21, 21);
-        margin-left: 10px;
-    }
 
-    .nav-list {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-top: 10px;
-        list-style: none;
-        padding: 0;
-    }
 
-    .nav-list li {
-        margin-left: 10px;
-    }
 
-    /* Riduci la dimensione delle icone nella navbar */
-    .navbar-menu .navLink {
-        font-size: 16px;
-    }
-
-    /* Riduci la dimensione delle icone delle voci di menu */
-    .navbar-menu .navLink i {
-        font-size: 20px;
-    }
 
     /* Footer */
     footer {
@@ -90,4 +94,5 @@
     .social i {
         font-size: 20px;
     }
+}
 }
