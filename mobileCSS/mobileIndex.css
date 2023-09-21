@@ -7,7 +7,6 @@
     .navbar {
         flex-direction: column; /* Allinea le voci del menu in colonna */
         justify-content: center; /* Allinea al centro orizzontalmente */
-        align-items: center; /* Allinea al centro verticalmente */
         background-color: rgb(28, 28, 28);
         padding: 10px; /* Aumenta il padding per migliorare la leggibilità */
     }
@@ -15,7 +14,7 @@
     /* Sposta il logo al centro */
     #logo {
         width: 120px;
-        margin: 10px 0; /* Centra il logo verticalmente */
+        margin-left: 10px;
     }
 
     /* Sposta la classe "angelo" al di sotto del logo */
