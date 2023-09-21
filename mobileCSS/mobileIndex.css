@@ -11,12 +11,7 @@
         padding: 10px; /* Aumenta il padding per migliorare la leggibilità */
     }
 
-    .logo-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 10px auto; /* Centra il logo verticalmente e orizzontalmente */
-    }
+   
 
     /* Sposta il logo al centro */
     #logo {
