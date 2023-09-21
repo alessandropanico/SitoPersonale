@@ -5,7 +5,7 @@
 
     /* Adatta la navbar al cellulare */
     .navbar {
-        flex-direction: row; /* Mantieni la direzione della flexbox in riga */
+        flex-direction: column; /* Allinea le voci del menu in colonna */
         justify-content: center; /* Allinea al centro orizzontalmente */
         align-items: center; /* Allinea al centro verticalmente */
         background-color: rgb(28, 28, 28);
@@ -15,7 +15,7 @@
     /* Sposta il logo al centro */
     #logo {
         width: 120px;
-        margin: 10px 10px 10px 0; /* Centra il logo e aggiungi margine a destra */
+        margin: 10px 0; /* Centra il logo verticalmente */
     }
 
     /* Sposta la classe "angelo" al di sotto del logo */
@@ -33,10 +33,9 @@
         list-style: none;
         padding: 0;
         display: flex;
-        flex-direction: row; /* Allinea le voci del menu in una riga */
+        flex-direction: column; /* Allinea le voci del menu in colonna */
         margin-top: 10px; /* Aggiungi margine superiore per separare le voci dal logo */
-
-
+        align-items: center; /* Allinea le voci del menu al centro orizzontalmente */
     }
 
     .navbar-menu li {
@@ -51,20 +50,8 @@
 
     /* Aggiungi spazio tra le voci del menu */
     ul li {
-        margin-right: 10px; /* Aggiungi margine a destra tra le voci */
+        margin-top: 10px; /* Aggiungi margine superiore tra le voci */
     }
-    
-
-
-
-
-
-
-
-
-
-
-
 
     /*---------------------------------------------------------------------*/
 
