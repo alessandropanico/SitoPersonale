@@ -4,14 +4,15 @@
     /*NAVBAR*/
 
     /* Adatta la navbar al cellulare */
-    .navbar {
-        flex-direction: column; /* Allinea le voci del menu in colonna */
-        justify-content: center; /* Allinea al centro orizzontalmente */
-        background-color: rgb(28, 28, 28);
-        padding: 10px; /* Aumenta il padding per migliorare la leggibilità */
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
    
+
 
     /* Sposta il logo al centro */
     #logo {
@@ -26,21 +27,19 @@
         z-index: 1; /* Porta "angelo" in primo piano sopra il menu */
     }
 
+    .menu {
+        margin-top: 10px;
+    }
+
     /* Modifica lo stile delle voci del menu */
     .navbar-menu {
         list-style: none;
         padding: 0;
-        display: flex;
-        flex-direction: column; /* Allinea le voci del menu in colonna */
-        margin-top: 20px; /* Aggiungi margine superiore per separare le voci dal logo */
-        align-items: center; /* Allinea le voci del menu al centro orizzontalmente */
     }
 
     .navbar-menu li {
-        margin: 5px; /* Aggiungi spazio tra le voci */
-        text-align: center; /* Centra il testo */
+        margin: 5px 0;
     }
-
     nav a {
         font-size: 12px; /* Aumenta la dimensione del testo delle voci */
         padding: 5px;
