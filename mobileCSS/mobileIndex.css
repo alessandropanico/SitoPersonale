@@ -45,12 +45,13 @@
         background-color: rgb(255, 255, 255);
     }
 
+    /* Riduci la dimensione del logo e posizionalo al centro della pagina */
     #logo {
         width: 80px;
-        margin: 20px auto;
+        margin: 0 auto;
     }
 
-    /* Posiziona il div .angelo affianco al logo */
+    /* Sposta il div .angelo affianco al logo */
     .angelo {
         font-size: 80px;
         color: rgb(207, 21, 21);
@@ -75,17 +76,9 @@
         font-size: 16px;
     }
 
-    /* Riduci la dimensione delle icone nella navbar */
+    /* Riduci la dimensione delle icone delle voci di menu */
     .navbar-menu .navLink i {
         font-size: 20px;
-    }
-
-    .insta {
-        width: 30px;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        z-index: 9999;
     }
 
     /* Footer */
@@ -93,15 +86,8 @@
         margin-top: 20px;
     }
 
-    .social {
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .alessandro {
-        font-size: 16px;
-        text-align: center;
+    /* Riduci la dimensione delle icone del footer */
+    .social i {
+        font-size: 20px;
     }
 }
