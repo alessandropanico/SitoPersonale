@@ -29,7 +29,7 @@
     .navbar-menu {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Allinea le voci del menu al centro */
+        align-items: center; /* Allinea le voci del menu al centroo */
         margin-top: 20px;
         list-style: none;
         padding: 0;
