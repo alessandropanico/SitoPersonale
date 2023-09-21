@@ -20,11 +20,12 @@
     }
 
     .angelo {
-        font-size: 25px;
+        font-size: 30px;
         text-align: center;
         margin-top: 5px; /* Riduci il margine superiore per separare "angelo" dal logo */
         z-index: 1; /* Porta "angelo" in primo piano sopra il menu */
     }
+    
 
     .menu {
         margin-top: 10px;
@@ -51,9 +52,8 @@
 
 
      /* Fai sì che le voci del menu siano disposte in colonna */
-     .navbar-menu li {
-        display: block;
-        text-align: center;
+     .navbar-menu {
+        flex-direction: column;
     }
 
 
