@@ -3,43 +3,33 @@
 
     /*NAVBAR*/
   
-    #logo {
-        width: 40px;
-        margin-left: 0;
-    }
+   /* Adatta la navbar al cellulare */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    background-color: rgb(28, 28, 28);
+}
 
-    .angelo {
-        font-size: 80px;
-        color: rgb(207, 21, 21);
-        margin-right: 10px;
-    }
+/* Riduci la dimensione delle icone nella navbar */
+.navbar-menu a {
+    font-size: 14px;
+    margin-left: 10px; /* Aggiungi margine sinistro */
+}
 
+/* Sposta il logo e la classe "angelo" al centro */
+#logo,
+.angelo {
+    margin: 0 auto;
+}
 
-    /* Adatta la navbar al cellulare */
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        padding: 5px 10px;
-        background-color: rgb(28, 28, 28);
-    }
+/* Sposta la classe "angelo" affianco al logo */
+.angelo {
+    font-size: 80px;
+    color: rgb(207, 21, 21);
+    margin-right: 10px;
+}
 
-
-    /* Riduci la dimensione delle icone nella navbar */
-    .navbar-menu a {
-        font-size: 14px;
-        margin-left: 10px; /* Aggiungi margine sinistro */
-    }
-
-    /* Riduci la dimensione delle icone delle voci di menu */
-
-
-    .navbar-menu {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-top: 10px;
-        list-style: none;
-    }
 
 
 
