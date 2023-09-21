@@ -8,7 +8,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        height: 200px;
+        height: auto; /* Altezza automatica per adattarsi al contenuto */
         padding: 5px 10px; /* Riduci il padding */
     }
 
@@ -31,7 +31,6 @@
     .menu {
         margin-top: 10px;
         align-items: flex-start; /* Allinea le voci a sinistra */
-
     }
 
     /* Modifica lo stile delle voci del menu */
@@ -40,8 +39,6 @@
         padding: 0;
         flex-direction: column;
         align-items: flex-start; /* Allinea le voci a sinistra */
-
-
     }
 
     .navbar-menu li {
@@ -54,28 +51,8 @@
 
     /* Aggiungi spazio tra le voci del menu */
     ul li {
-        margin-top: 10px; /* Aggiungi marginee superiore tra le voci */
+        margin-top: 5px; /* Riduci margine superiore tra le voci */
     }
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
     /*---------------------------------------------------------------------*/
 
@@ -114,8 +91,6 @@
         width: 50px;
         height: 50px;
     }
-
-
 
     /*--------------------------------------------------------*/
 
