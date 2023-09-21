@@ -5,8 +5,9 @@
 
     /* Adatta la navbar al cellulare */
     .navbar {
-        flex-direction: column; /* Cambia la direzione della flexbox in colonna */
-        align-items: center; /* Allinea al centro orizzontalmente */
+        flex-direction: row; /* Mantieni la direzione della flexbox in riga */
+        justify-content: center; /* Allinea al centro orizzontalmente */
+        align-items: center; /* Allinea al centro verticalmente */
         background-color: rgb(28, 28, 28);
         padding: 10px; /* Aumenta il padding per migliorare la leggibilità */
     }
@@ -14,13 +15,13 @@
     /* Sposta il logo al centro */
     #logo {
         width: 80px;
-        margin: 10px auto; /* Centra il logo */
+        margin: 10px 10px 10px 0; /* Centra il logo e aggiungi margine a destra */
     }
 
-    /* Sposta la classe "angelo" sotto il logo */
+    /* Sposta la classe "angelo" al di sotto del logo */
     .angelo {
         width: 40px;
-        margin: 10px auto; /* Centra "angelo" */
+        margin: 10px 0; /* Centra "angelo" verticalmente */
         position: static; /* Rimuovi la posizione assoluta */
         top: auto;
         right: auto;
@@ -31,22 +32,24 @@
     .navbar-menu {
         list-style: none;
         padding: 0;
+        display: flex;
+        flex-direction: row; /* Allinea le voci del menu in una riga */
+        margin: 0;
     }
 
     .navbar-menu li {
-        margin: 5px 0; /* Aggiungi spazio tra le voci */
+        margin: 5px; /* Aggiungi spazio tra le voci */
         text-align: center; /* Centra il testo */
     }
-    
+
     nav a {
         font-size: 14px; /* Aumenta la dimensione del testo delle voci */
     }
 
     /* Aggiungi spazio tra le voci del menu */
     ul li {
-        margin-right: 0; /* Rimuovi il margine destro */
+        margin-right: 10px; /* Aggiungi margine a destra tra le voci */
     }
-
     
 
 
@@ -59,7 +62,7 @@
 
 
 
-    
+
     /*---------------------------------------------------------------------*/
 
     /* Riduci la dimensione del testo nell'intestazione */
