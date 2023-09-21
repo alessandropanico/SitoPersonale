@@ -12,12 +12,11 @@
     }
 
    
-
-
     /* Sposta il logo al centro */
     #logo {
-        width: 120px;
+        width: 150px;
         margin-left: 10px;
+        margin-top: 20px;
     }
 
     .angelo {
@@ -47,10 +46,15 @@
 
     /* Aggiungi spazio tra le voci del menu */
     ul li {
-        margin-top: 10px; /* Aggiungi margine superiore tra le voci */
+        margin-top: 10px; /* Aggiungi marginee superiore tra le voci */
     }
 
 
+     /* Fai sì che le voci del menu siano disposte in colonna */
+     .navbar-menu li {
+        display: block;
+        text-align: center;
+    }
 
 
 
