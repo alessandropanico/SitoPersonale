@@ -33,6 +33,7 @@
         flex-direction: column; /* Allinea le voci del menu in colonna */
         margin-top: 20px; /* Aggiungi margine superiore per separare le voci dal logo */
         align-items: center; /* Allinea le voci del menu al centro orizzontalmente */
+        position: absolute;
     }
 
     .navbar-menu li {
