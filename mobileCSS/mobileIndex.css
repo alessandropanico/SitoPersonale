@@ -55,10 +55,10 @@
     .navbar-menu li:first-child {
         margin-top: 0; /* Rimuovi il margine superiore solo dalla prima voce del menu */
     }
-    
+
     nav a {
         font-size: 12px; /* Aumenta la dimensione del testo delle voci */
-        padding: 5px;
+        padding: 0px;
     }
 
     /* Aggiungi spazio tra le voci del menu */
