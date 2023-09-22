@@ -49,6 +49,7 @@
     .navbar-menu li {
         margin: 5px 0;
         text-align: left;
+        margin-bottom: 5px; /* Aggiungi un margine inferiore per separare le voci */
 
     }
     nav a {
@@ -62,6 +63,16 @@
         padding-left: 5px; /* Aggiungi un margine a sinistra per separare dal bordo */
 
     }
+
+
+
+
+
+
+
+
+
+
 
     /*---------------------------------------------------------------------*/
 
