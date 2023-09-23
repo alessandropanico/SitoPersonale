@@ -25,7 +25,6 @@
         z-index: 1; /* Porta "angelo" in primo piano sopra il menu */
         margin-right: 20px;
         margin-top: 20px;
-        align-items: center;
     }
 
   
@@ -34,7 +33,6 @@
         align-items: start; /* Allinea le voci a sinistra */
         flex-direction: column;
         padding: 0px;
-        display: flex;
 
     }
 
@@ -43,7 +41,8 @@
         list-style: none;
         padding: 0;
         flex-direction: column;
-        display: flex; /* Imposta il display su flex */
+        align-items: flex-start; /* Allinea le voci a sinistra */
+
 
     }
 
@@ -64,6 +63,8 @@
     nav a {
         font-size: 12px; /* Aumenta la dimensione del testo delle voci */
         padding: 0px;
+        margin: -5px 0; /* Utilizza un numero negativo per ridurre il margine tra le voci del menu */
+
     }
 
     /* Aggiungi spazio tra le voci del menu */
