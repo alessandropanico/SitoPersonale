@@ -71,12 +71,12 @@
 /*--------------------------------------------------*/
 /*CONTENUTO PAGINA*/
 
-.narrower-container {
-    max-width: 100%; /* Larghezza massima desiderata per il container */
-    margin: 0 auto; /* Per centrare il container orizzontalmente */
-    display: flex; /* Utilizza flexbox per il posizionamento centrale */
-    flex-direction: column; /* Allinea gli oggetti verticalmente al centro */
-    align-items: center; /* Allinea gli oggetti orizzontalmente al centro */
+/* .narrower-container {
+    max-width: 100%; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
 }
 
 
@@ -95,11 +95,10 @@
     font-size: 30px;
 }
 
-/* Riduci la dimensione del testo nei paragrafi "Obiettivi" */
 .testoObiettivi {
     font-size: 14px;
 
-}
+} */
 
 
 
