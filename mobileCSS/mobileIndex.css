@@ -6,7 +6,6 @@
     /* Adatta la navbar al cellulare */
     #navbar {
         flex-direction: column;
-        align-items: center;
         text-align: center;
         height: auto; /* Altezza automatica per adattarsi al contenuto */
         padding: 5px; /* Riduci il padding */
@@ -54,9 +53,13 @@
 
     }
 
+
+    /*
     .navbar-menu li:first-child {
-        margin-top: 0; /* Rimuovi il margine superiore solo dalla prima voce del menu */
+        margin-top: 0;  Rimuovi il margine superiore solo dalla prima voce del menu 
     }
+    */
+
 
     nav a {
         font-size: 12px; /* Aumenta la dimensione del testo delle voci */
@@ -65,8 +68,8 @@
 
     /* Aggiungi spazio tra le voci del menu */
     ul li {
-        margin-top: 5px; /* Riduci margine superiore tra le voci */
-        padding-left: 5px; /* Aggiungi un margine a sinistra per separare dal bordo */
+        margin-right: -10px; /* Aggiungi spazio tra le voci */
+
 
     }
 
