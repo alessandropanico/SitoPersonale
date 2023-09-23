@@ -53,6 +53,7 @@
     }
 
 
+
     nav a {
         font-size: 12px; /* Aumenta la dimensione del testo delle voci */
         padding: 0px;
@@ -70,17 +71,22 @@
 /*--------------------------------------------------*/
 /*CONTENUTO PAGINA*/
 
-
-
+.narrower-container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+}
 
 
 
 .titolo1, .titolo2 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 
-.testoChiSono p {
+.testoChiSono  {
     font-size: 14px;
 }
 
@@ -90,7 +96,7 @@
 }
 
 /* Riduci la dimensione del testo nei paragrafi "Obiettivi" */
-.testoObiettivi p {
+.testoObiettivi {
     font-size: 14px;
 }
 
