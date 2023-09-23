@@ -67,59 +67,34 @@
 
 /*--------------------------------------------------*/
 /*CONTENUTO PAGINA*/
-.narrower-container {
-    max-width: 100%;
-    /* Larghezza massima desiderata per il container */
-    margin: 0 auto;
-    /* Per centrare il container orizzontalmente */
+
+ .narrower-container {
+    max-width: 100%; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
 }
 
-.titolo1 {
+
+.titolo1, .titolo2 {
     font-size: 40px;
-    /* Modifica la dimensione del titolo 1 per i dispositivi mobili */
 }
 
-.titolo2 {
-    font-size: 40px;
-    /* Modifica la dimensione del titolo 2 per i dispositivi mobili */
-    line-height: 1; /* Ripristina il line-height predefinito */
-}
 
-.quadrato {
-    margin-left: 0; /* Rimuovi il margine sinistro per il quadrato */
-}
-
-.divFoto {
-    margin-right: 0; /* Rimuovi il margine destro per l'immagine profilo */
-}
-
-.immagineProfilo {
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    /* Modifica le dimensioni dell'immagine profilo per i dispositivi mobili */
-}
-
-.chiSono {
-    font-size: 24px;
-    /* Modifica la dimensione del titolo "Chi sono" per i dispositivi mobili */
-}
-
-.testoChiSono {
+.testoChiSono  {
     font-size: 14px;
-    /* Modifica la dimensione del testo "Chi sono" per i dispositivi mobili */
 }
+
 
 .obiettivi {
-    font-size: 36px;
-    /* Modifica la dimensione del titolo "Obiettivi" per i dispositivi mobili */
+    font-size: 30px;
 }
 
 .testoObiettivi {
     font-size: 14px;
-    /* Modifica la dimensione del testo "Obiettivi" per i dispositivi mobili */
-    margin-top: 30px; /* Aggiungi spazio tra il titolo e il testo */
-}
+
+} 
 
 
 
