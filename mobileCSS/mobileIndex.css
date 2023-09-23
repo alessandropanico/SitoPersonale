@@ -34,6 +34,8 @@
         margin-top: 10px;
         align-items: start; /* Allinea le voci a sinistra */
         flex-direction: column;
+        padding: 0px;
+        display: flex;
 
     }
 
