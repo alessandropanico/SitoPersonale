@@ -72,13 +72,9 @@
 /*CONTENUTO PAGINA*/
 
 .narrower-container {
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
     max-width: 100%;
-}
 
+}
 
 
 .titolo1, .titolo2 {
