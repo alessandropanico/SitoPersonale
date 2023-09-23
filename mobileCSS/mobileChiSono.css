@@ -42,8 +42,6 @@
         padding: 0;
         flex-direction: column;
         align-items: flex-start; /* Allinea le voci a sinistra */
-
-
     }
 
     .navbar-menu li {
@@ -51,7 +49,6 @@
         margin: -5px 0; /* Utilizza un numero negativo per ridurre il margine tra le voci del menu */
 
     }
-
 
 
     nav a {
