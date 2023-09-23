@@ -53,12 +53,6 @@
     }
 
 
-    /*
-    .navbar-menu li:first-child {
-        margin-top: 0;  Rimuovi il margine superiore solo dalla prima voce del menu 
-    }
-    */
-
 
     nav a {
         font-size: 12px; /* Aumenta la dimensione del testo delle voci */
@@ -76,20 +70,10 @@
 
 
 
-
-
-
-
-
-
-
-
     /*---------------------------------------------------------------------*/
+    /*CONTENUTO PAGINA*/
 
-    section{
-        margin-top: 80px;
-    }
-
+ 
     /* Riduci la dimensione del testo nell'intestazione */
     .benvenuto {
         font-size: 30px;
