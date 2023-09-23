@@ -73,11 +73,11 @@
     font-family: mw;
     font-size: 30px;
     color: rgb(207, 21, 21);
-    margin-bottom: 20px;
 }
 
 .conclusioni{
     font-size: 30px;
+    font-family: concilian;
 
 }
 
@@ -85,14 +85,12 @@
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: justify;
-    margin-top: 20px;
 }
 
 .benedizioni {
     font-family: ex;
     font-size: 30px;
     color: rgb(207, 21, 21);
-    margin-top: 20px;
 }
 
 

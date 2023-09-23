@@ -98,6 +98,7 @@
     /* Riduci la dimensione del testo nell'elemento "IN PRIMO PIANO" */
     .piano {
         font-size: 30px;
+        font-family: concilian;
     }
 
     /* Riduci la dimensione delle frecce del carousel */
