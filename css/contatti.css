@@ -105,12 +105,17 @@ a {
 }
 
 
-.form-control{
-    border: solid 5px; border-color: rgb(207, 21, 21);
-                                border-radius: 20px;
+.form-control {
+    border: solid 5px;
+    border-color: rgb(207, 21, 21);
+    border-radius: 20px;
 }
 
-#messaggio{
-    width: 600px; height: 350px; border: solid 5px; border-color: rgb(207, 21, 21);
-                border-radius: 20px; padding: 20px;
+#messaggio {
+    width: 600px;
+    height: 350px;
+    border: solid 5px;
+    border-color: rgb(207, 21, 21);
+    border-radius: 20px;
+    padding: 20px;
 }
