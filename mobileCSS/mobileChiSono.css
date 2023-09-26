@@ -70,7 +70,9 @@
 /*CONTENUTO PAGINA*/
 
 .narrower-container {
-    max-width: 100%; /* Modifica questa linea se necessario */
+    width: 100%; /* Imposta la larghezza al 100% del viewport del dispositivo */
+    max-width: 600px; /* Esempio: 600px come larghezza massima */
+    margin: 0 auto; /* Per centrare il contenitore orizzontalmente */
     padding: 0 20px; /* Aggiungi spaziatura ai lati per separare il contenuto dai bordi del dispositivo */
 
 }
