@@ -67,13 +67,12 @@
 
 
 /*--------------------------------------------------*/
-/*CONTENUTO PAGINA
+/*CONTENUTO PAGINA*/
 
-    .narrower-container {
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 10px; 
-    }
+.narrower-container {
+    
+    max-width: 100%; /* Modifica questa linea se necessario */
+}
     
     .titolo1, .titolo2 {
         font-size: 30px; 
@@ -105,7 +104,7 @@
     margin-top: 20px;
 }
 
-*/
+
 
 
 /*--------------------------------------------------*/
@@ -124,5 +123,4 @@
     .social i {
         font-size: 25px;
     }
-
 }
