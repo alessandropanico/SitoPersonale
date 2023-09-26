@@ -65,47 +65,48 @@
 
     }
 
+
 /*--------------------------------------------------*/
 /*CONTENUTO PAGINA
+    .narrower-container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px; /* Aggiungi spazio attorno al contenuto */
+    }
 
- .narrower-container {
-    max-width: 100%; 
-    margin: 0 auto; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center;
-}
+    .titolo1, .titolo2 {
+        font-size: 30px; /* Riduci la dimensione dei titoli */
+    }
 
+    .chiSono {
+        font-size: 24px; /* Riduci la dimensione del titolo "Chi sono" */
+    }
 
-.titolo1, .titolo2 {
-    font-size: 40px;
-}
+    .testoChiSono {
+        font-size: 14px;
+    }
 
+    .obiettivi {
+        font-size: 30px;
+        margin-top: 20px;
+    }
 
-.testoChiSono  {
-    font-size: 14px;
-}
+    .testoObiettivi {
+        font-size: 14px;
+        margin-top: 20px;
+    }
 
-
-.obiettivi {
-    font-size: 30px;
-}
-
-.testoObiettivi {
-    font-size: 14px;
-
-} 
-
-*/
-
-
-
+  
 
 .linea {
     background-color: red;
     height: 2px;
     margin-top: 20px;
 }
+
+
+
+
 /*--------------------------------------------------*/
  /*FOOTER*/
     /* Riduci la dimensione del testo nel footer */
@@ -122,4 +123,4 @@
     .social i {
         font-size: 25px;
     }
-}
+
