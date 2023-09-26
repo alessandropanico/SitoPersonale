@@ -67,19 +67,20 @@
 
 
 /*--------------------------------------------------*/
-/*CONTENUTO PAGINA*/
+/*CONTENUTO PAGINA
 
     .narrower-container {
         max-width: 100%;
         margin: 0 auto;
         padding: 10px; 
     }
+    
     .titolo1, .titolo2 {
-        font-size: 30px; /* Riduci la dimensione dei titoli */
+        font-size: 30px; 
     }
 
     .chiSono {
-        font-size: 24px; /* Riduci la dimensione del titolo "Chi sono" */
+        font-size: 24px; 
     }
 
     .testoChiSono {
@@ -104,7 +105,7 @@
     margin-top: 20px;
 }
 
-
+*/
 
 
 /*--------------------------------------------------*/
