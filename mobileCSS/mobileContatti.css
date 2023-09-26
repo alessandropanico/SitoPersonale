@@ -1,0 +1,125 @@
+/* Stili per schermi con larghezza massima di 768px (versione mobile) */
+@media screen and (max-width: 768px) {
+
+    /*NAVBAR*/
+
+    /* Adatta la navbar al cellulare */
+    #navbar {
+        flex-direction: column;
+        text-align: center;
+        height: auto; /* Altezza automatica per adattarsi al contenuto */
+        padding: 5px; /* Riduci il padding */
+    }
+
+   
+    /* Sposta il logo al centro */
+    #logo {
+        width: 170px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .angelo {
+        font-size: 40px;
+        margin-top: 20px; /* Riduci il margine superiore per separare "angelo" dal logo */
+        z-index: 1; /* Porta "angelo" in primo piano sopra il menu */
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+  
+    .menu {
+        margin-top: 10px;
+        align-items: start; /* Allinea le voci a sinistra */
+        flex-direction: column;
+        padding: 0px;
+
+    }
+
+    /* Modifica lo stile delle voci del menu */
+    .navbar-menu {
+        list-style: none;
+        padding: 0;
+        flex-direction: column;
+        align-items: flex-start; /* Allinea le voci a sinistra */
+    }
+
+    .navbar-menu li {
+        text-align: left;
+        margin: -5px 0; /* Utilizza un numero negativo per ridurre il margine tra le voci del menu */
+
+    }
+
+
+    nav a {
+        font-size: 12px; /* Aumenta la dimensione del testo delle voci */
+        padding: 0px;
+        margin: -5px 0; /* Utilizza un numero negativo per ridurre il margine tra le voci del menu */
+
+    }
+
+    /* Aggiungi spazio tra le voci del menu */
+    ul li {
+        margin-right: -10px; /* Aggiungi spazio tra le voci */
+
+
+    }
+/*--------------------------------------------------------*/
+
+
+.contatti{
+    font-size: 30px;
+}
+
+.segna{
+    font-size: 30px;
+    text-align: center;
+}
+
+.parliamone{
+    font-size: 30px;
+    text-align: center;
+}
+
+.testoParliamone{
+    font-size: 14px;
+}
+
+.fineContatti{
+    font-size: 14px;
+}
+
+.form-control {
+    width: 100%; /* Rendi il campo del form larghezza 100% */
+}
+
+#messaggio {
+    width: 100%;
+    height: 200px; /* Riduci l'altezza per adattarla ai dispositivi mobili */
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------*/
+
+    /*FOOTER*/
+    /* Riduci la dimensione del testo nel footer */
+    .alessandro {
+        font-size: 18px;
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 20px;
+    }
+
+    /* Riduci la dimensione delle icone del footer */
+    .social i {
+        font-size: 25px;
+    }
+}
