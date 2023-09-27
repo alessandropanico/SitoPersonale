@@ -80,21 +80,18 @@
     .argomento {
         font-family: ex;
         color: rgb(207, 21, 21);
-        font-size: 60px;
+        font-size: 30px;
     }
 
     .work {
         font-family: ex;
-        font-size: 80px;
+        font-size: 40px;
         color: black
     }
 
     .tempo {
-        text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(0, 0, 0);
-        padding: 20px;
-        z-index: 999;
+       font-size: 14px;
+
     }
 
 
