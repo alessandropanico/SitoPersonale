@@ -27,27 +27,34 @@
     font-size: 40px;
     color: rgb(0, 0, 0);
     padding: 20px;
-    z-index: 10;
+    z-index: 10; /* Imposta un valore maggiore per sovrapporre il div sopra la foto */
     position: absolute;
     margin-left: 250px;
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 0; /* Aggiungi questa regola per evitare che il margine superiore influenzi la posizione */
 }
-
 
 .divFoto {
     margin-right: 50px;
-    z-index: 1;
     position: relative;
+    z-index: -1; 
 }
 
 .immagineProfilo {
     width: 300px;
     height: 300px;
     margin-top: 40px;
+    z-index: -1;
+    position: relative;
 }
+
+.animation-container {
+    position: relative;
+}
+
 
 .btn-grad {
     background-image: linear-gradient(to right, #DC2424 0%, #6e3391 51%, #DC2424 100%);
