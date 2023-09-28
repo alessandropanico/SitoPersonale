@@ -281,9 +281,16 @@ a {
 .piano {
     font-size: 50px;
     font-family: concilian;
-    color: black
+    color: black;
 }
 
+.scorri {
+    font-size: 40px;
+    font-family: concilian;
+    color: black;
+    line-height: 0.5;
+    
+}
 
 .avanti {
     font-family: ex;

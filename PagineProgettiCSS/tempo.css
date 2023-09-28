@@ -78,7 +78,10 @@
     }
 
     /*----------------------*/
-
+    section {
+        margin-top: 20px;
+    }
+    
     .argomento {
         
         font-size: 30px;
@@ -86,6 +89,7 @@
 
     .work {
         font-size: 40px;
+        text-align: center;
     }
 
     .tempo {
