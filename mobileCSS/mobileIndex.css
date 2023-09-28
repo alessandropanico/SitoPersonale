@@ -74,6 +74,7 @@
     /* Riduci la dimensione del testo nell'intestazione */
     .benvenuto {
         font-size: 30px;
+        text-align: center;
     }
 
     .avanti {
