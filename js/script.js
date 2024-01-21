@@ -51,7 +51,7 @@ function contattami(){
 }
 
 function progetti(){
-  window.location.href="progetti.html";
+  window.location.href="../pagine/progetti.html";
 }
 
 
