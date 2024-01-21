@@ -112,7 +112,7 @@ nav a:hover {
     margin-left: 80px;
     animation: glow 1s infinite alternate;
     /* Applica l'animazione "glow" in modo continuo */
-    text-shadow: 0 0 10pxred;
+    text-shadow: 0 0 10px red;
     /* Aggiungi uno shadow al testo */
     margin-bottom: 10px;
     position: absolute;

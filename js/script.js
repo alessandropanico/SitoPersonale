@@ -47,7 +47,11 @@ function Dio(){
 }
 
 function contattami(){
-  window.location.href="contatti.html"
+  window.location.href="contatti.html";
+}
+
+function progetti(){
+  window.location.href="progetti.html";
 }
 
 
@@ -83,6 +87,17 @@ window.addEventListener("scroll", handleScroll);
 // Chiamata alla funzione quando la pagina si carica
 window.addEventListener("load", handleScroll);
 
+
+
+//------------------------------------------------------------
+//IMMAGINE SCROLL
+window.addEventListener("scroll", function() {
+  var scrollImg = document.getElementById("scrollImg");
+  var scrollTop = window.scrollY || document.documentElement.scrollTop;
+  var translation = scrollTop * 0.4; // Modifica il valore 0.4 per regolare la velocità dello spostamento
+
+  scrollImg.style.transform = "translateX(" + translation + "px)";
+});
 
 
 
