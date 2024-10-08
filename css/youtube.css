@@ -41,19 +41,20 @@
 
 @keyframes glow2 {
   0% {
-      text-shadow: 0 0 20px rgb(227, 243, 3);
-      /* Stato iniziale del bagliore (aumenta la larghezza) */
+    text-shadow: 0 0 20px rgb(227, 243, 3);
+    /* Stato iniziale del bagliore (aumenta la larghezza) */
   }
 
   100% {
-      text-shadow: 0 0 40px rgb(227, 243, 3), 0 0 60px rgb(227, 243, 3);
-      /* Stato finale del bagliore (aumenta ancora la larghezza) */
+    text-shadow: 0 0 40px rgb(227, 243, 3), 0 0 60px rgb(227, 243, 3);
+    /* Stato finale del bagliore (aumenta ancora la larghezza) */
   }
 }
 
 .sub {
   color: rgb(227, 243, 3);
-  transition: color 0.5s; /* Aggiungi una transizione per il colore */
+  transition: color 0.5s;
+  /* Aggiungi una transizione per il colore */
   animation: glow2 2s infinite;
 }
 
@@ -63,38 +64,23 @@
   transition: 0.5s;
 }
 
-
-/* .colonna {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-@keyframes shine {
-  0% {
-    text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow;
-    color: yellow;
-  }
-  100% {
-    text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow;
-    color: yellow;
-  }
-}
-
-.supportami {
-  color: yellow;
-  text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow;
-  transition: 0.5s;
-  background-color: blueviolet;
-  position: absolute;
-  height: 600px;
-  width: 100px;
-  margin-left: 900px;
-  padding: 40px;
-  font-size: 25px;
-  font-family: mw;
-  animation: shine 2s infinite;
-} */
-
 /*-----------------*/
 
+.banner2 {
+  width: 700px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width:600px) {
+
+
+  .banner2 {
+    width: 100%;
+    height: auto;
+  }
+
+  #scrollDiv {
+    display: none;
+  }
+
+}

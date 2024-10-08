@@ -48,7 +48,7 @@
     /* Aggiungi una transizione all'opacità */
 }
 
-#logo{
+#logo {
     width: 300px;
     margin-left: 20px;
 }
@@ -289,7 +289,7 @@ a {
     font-family: concilian;
     color: black;
     line-height: 0.5;
-    
+
 }
 
 .avanti {
@@ -306,9 +306,18 @@ a {
 }
 
 
-@media screen and (max-width:768px){
-    .angelo{
+@media screen and (max-width:768px) {
+    .angelo {
         display: none;
     }
 }
 
+
+@media screen and (max-width:600px) {
+
+    .piano {
+        font-size: 45px;
+        text-align: center;
+        line-height: 1;
+    }
+}
