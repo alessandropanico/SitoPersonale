@@ -305,6 +305,12 @@ a {
     margin-top: 25px;
 }
 
+.titolo2{
+    font-family: concilian;
+    font-size: 50px;
+    color: black;
+    margin-top: 20px;
+}
 
 @media screen and (max-width:768px) {
     .angelo {
@@ -316,6 +322,12 @@ a {
 @media screen and (max-width:600px) {
 
     .piano {
+        font-size: 45px;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .titolo2{
         font-size: 45px;
         text-align: center;
         line-height: 1;
